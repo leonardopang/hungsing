@@ -1,0 +1,57 @@
+.artista-marcial_holder {
+  grid-gap: 0;
+  align-items: center;
+
+  .button-only-border {
+    margin-top: 1rem;
+  }
+}
+
+.artista-marcial--item {
+  height: 100%;
+
+  .artista-marcial-info {
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  img {
+    max-height: 800px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .artista-marcial_holder {
+    grid-gap: 0;
+    max-height: 800px;
+  }
+
+  .artista-marcial--item {
+    &:last-child {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .artista-marcial-info {
+      display: block;
+    }
+
+    .half-container-wrap {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+  }
+
+}

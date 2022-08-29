@@ -1,0 +1,50 @@
+.cards-menu_holder {
+  margin-top: 2rem;
+}
+
+.cards-menu--item {
+  padding: 1rem 0;
+  display: block;
+  box-sizing: border-box;
+}
+
+.cards-menu--item img {
+  height: 284px;
+  object-fit: contain;
+  margin-bottom: 0.5rem;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.cards-menu--item .normal-title {
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width: 1024px) {
+  .cards-menu_holder {
+    margin: 10rem 0 6rem;
+    grid-gap: 1rem;
+  }
+
+  .cards-menu--item {
+    box-shadow: 0px 40px 40px 5px rgb(0 0 0 / 15%);
+    background-color: #fff;
+    position: relative;
+    padding: 5rem 1.8rem 4rem;
+  }
+
+  .cards-menu--item img {
+    position: absolute;
+    top: -226px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+  }
+
+  .academias_holder {
+    grid-template-columns: 36% 1fr;
+    grid-gap: 7rem;
+    align-items: center;
+  }
+}

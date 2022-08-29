@@ -1,0 +1,69 @@
+/*
+Theme Name: Hung Sing
+Theme URI: http:wwww.hungsing.com.br
+Description: Tema criado Academia Hung Sing
+Author: Leonardo Pang
+Version: 1.0.0
+*/
+
+*{
+  padding: 0;
+  margin: 0;
+  text-transform: inherit;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
+
+a{
+  text-decoration: none;
+}
+
+.grids{
+  display: grid;
+  grid-gap: 1rem;
+}
+
+.two_grids, .three_grids,
+.four_grids, .five_grids{
+  grid-template-columns: 1fr;
+}
+
+.flex_item{
+  display: flex;
+  align-items: center;
+}
+
+.container-wrap{
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
+  box-sizing: border-box;
+}
+
+@media(min-width: 1024px){
+
+  .two_grids{
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .three_grids{
+    grid-template-columns: repeat(3,1fr);
+  }
+
+  .four_grids{
+    grid-template-columns: repeat(4,1fr);
+  }
+
+  .five_grids{
+    grid-template-columns: repeat(5,1fr);
+  }
+
+  .container-wrap{
+    max-width: 1272px;
+    margin: 0 auto;
+  }
+
+}

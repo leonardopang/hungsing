@@ -1,0 +1,47 @@
+.erro-404 {
+  min-height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0 .5rem;
+}
+
+.error404 {
+  overflow-x: hidden;
+
+  footer {
+    display: none;
+  }
+}
+
+.erro-404_image {
+  order: -1;
+}
+
+@media(min-width: 1024px) {
+
+  .erro-404 {
+    min-height: 100vh;
+    padding: 0;
+  }
+
+  .erro-404_holder {
+    position: relative;
+    z-index: 1;
+  }
+
+  .erro-404_image {
+    order: 2;
+
+    img {
+      background-color: #000;
+      position: absolute;
+      top: -345px;
+      height: 1024px;
+      object-fit: contain;
+      left: 74%;
+      transform: translateX(-50%);
+      z-index: -1;
+    }
+  }
+}

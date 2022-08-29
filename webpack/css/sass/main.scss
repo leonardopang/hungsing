@@ -1,0 +1,12 @@
+@import './base/reset',
+'./base/layout',
+'./base/container',
+'./base/colors';
+@import './modules/header/header';
+@import './modules/page/page-404';
+@import './modules/home/home';
+@import './modules/depoimentos';
+@import './modules/artista-marcial';
+@import './modules/footer/footer';
+@import './vendor/tiny-slider';
+@import './modules/custom-slider';

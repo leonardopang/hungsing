@@ -1,0 +1,50 @@
+.academias_holder {
+  margin-top: 4rem;
+  grid-gap: 3rem;
+}
+
+.chamada-unidade {
+  display: inline-block;
+  border-color: #414042;
+  font-weight: 500;
+  padding: 10px 17px;
+}
+
+.academias--item .title-container {
+  margin-top: 2rem;
+}
+
+.academias--item .title-container .normal-text {
+  display: inline-block;
+  margin: 1rem 0 3rem;
+}
+
+.select-unidades {
+  display: block;
+  margin-bottom: 1rem;
+  padding: 8px;
+  font-family: "Ubuntu";
+  font-size: 16px;
+  width: 100%;
+  color: #414042;
+}
+
+.button-unidades {
+  padding: 10px 20px;
+  max-width: 209px;
+  width: 100%;
+  color: #414042;
+  font-weight: 500;
+  border: 1px solid #414042;
+  font-size: 16px;
+  font-family: "Ubuntu";
+  background-color: transparent;
+  transition: 0.2s all;
+  cursor: pointer;
+}
+
+.button-unidades:hover {
+  background-color: #414042;
+  color: #fff;
+  transition: 0.2s all;
+}

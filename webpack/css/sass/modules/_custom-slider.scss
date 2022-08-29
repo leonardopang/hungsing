@@ -1,0 +1,37 @@
+.slider_container {
+  .tns-controls {
+    button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 2;
+      border-radius: 50%;
+      border: none;
+      background-color: #fff;
+      color: #000;
+      font-weight: bolder;
+      width: 30px;
+      height: 30px;
+      font-size: 18px;
+      font-family: var(--font-ubuntu);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 2px;
+      transition: background-color .5s ease, color .5s ease;
+
+      &:hover {
+        background-color: #000;
+        color: #fff;
+      }
+
+      &[data-controls="prev"] {
+        left: 1rem;
+      }
+
+      &[data-controls="next"] {
+        right: 1rem;
+      }
+    }
+  }
+}

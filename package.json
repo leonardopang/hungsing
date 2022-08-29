@@ -1,0 +1,35 @@
+{
+  "name": "hungsing",
+  "version": "1.0.0",
+  "main": "",
+  "dependencies": {
+    "tiny-slider": "^2.9.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.7.3",
+    "babel-core": "^6.23.1",
+    "babel-loader": "^7.0.0-bridge.0",
+    "babel-preset-es2015": "^6.22.0",
+    "css-loader": "^0.26.1",
+    "mini-css-extract-plugin": "2.5.3",
+    "postcss": "^8.4.6",
+    "postcss-loader": "^4.2.0",
+    "postcss-sass-loader": "^1.1.0",
+    "sass-loader": "^12.6.0",
+    "file-loader": "^6.2.0",
+    "optimize-css-assets-webpack-plugin": "^3.2.0",
+    "url-loader": "^4.1.1",
+    "webpack-cli": "^4.10.0",
+    "webpack": "^5.73.0"
+  },
+  "scripts": {
+    "start": "webpack --node-env development --config webpack.config.js --watch --progress --mode none",
+    "build": "webpack --node-env production  --config webpack.config.js --progress --mode production"
+  },
+  "keywords": [
+    "DP8 Estudio"
+  ],
+  "author": "Leonardo Pang",
+  "license": "ISC",
+  "description": ""
+}

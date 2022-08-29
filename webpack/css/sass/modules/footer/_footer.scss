@@ -1,0 +1,80 @@
+.footer {
+  padding: 2rem 0;
+  position: relative;
+}
+
+.footer-top_holder {
+  background-image: url(https://www.hungsing.com.br/wp-content/uploads/dragon.png);
+  grid-gap: 0;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 1rem;
+}
+
+.footer-info--item:last-child {
+  margin-bottom: 1rem;
+}
+
+.footer-contato--item h3 {
+  margin-bottom: 0.5rem;
+}
+
+.footer-socials p {
+  margin-bottom: 1rem !important;
+  display: block;
+}
+
+.footer-socials a {
+  font-size: 16px;
+}
+
+.footer-socials a:last-child {
+  margin-left: 8px;
+}
+
+.footer-reverse-mobile {
+  grid-row: 1;
+}
+
+.footer-contato,
+.footer-socials {
+  margin-top: 1rem;
+}
+
+@media (min-width: 1024px) {
+  .footer-top_holder {
+    grid-template-columns: 423px 1fr;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    height: 196px;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .logo-footer {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -70%);
+  }
+
+  .footer-contato {
+    grid-template-columns: 1fr 35%;
+    margin-top: 0;
+  }
+
+  .footer-socials {
+    margin-top: 0;
+  }
+
+  .footer-info--item:last-child {
+    padding-top: 1rem;
+    box-sizing: border-box;
+  }
+
+  .footer-reverse-mobile {
+    grid-row: auto;
+  }
+}

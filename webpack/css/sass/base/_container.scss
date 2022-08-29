@@ -1,0 +1,22 @@
+.half-container-wrap {
+  padding: 0 2rem;
+}
+
+@media (min-width: 1024px) {
+
+  .half-container-wrap {
+    max-width: 600px;
+  }
+
+  .half-container-right {
+    margin: 0 auto 0 0;
+    padding: 0 2rem 0 6rem;
+  }
+
+  .half-container-left {
+    margin: 0 0 0 auto;
+    padding: 0 6rem 0 2rem;
+  }
+
+
+}

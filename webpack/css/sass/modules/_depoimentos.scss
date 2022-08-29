@@ -1,0 +1,93 @@
+/* ==== DEPOIMENTOS ==== */
+
+.depoimentos {
+  margin: 4rem 0;
+}
+
+.depoimentos_holder {
+  position: relative;
+}
+
+.depoimento_siema {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.depoimento--item .title_container {
+  margin-bottom: 2rem;
+}
+
+.depoimento--item {
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+.arrows_holder {
+  display: none;
+}
+
+.arrows {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.arrows:hover {
+  color: #ccc;
+}
+
+.arrows-left {
+  left: -28px;
+}
+
+.arrows-right {
+  right: -28px;
+}
+
+/* === DOTS DEPOIMENTOS === */
+
+.dots {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dots__item {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #000;
+  margin: 0 3px;
+}
+
+.dots__item--active,
+.dots__item:hover {
+  background-color: var(--yellow);
+}
+
+.depoimento_info {
+  text-align: justify;
+  color: #000;
+  font-weight: 500;
+  line-height: calc(16px * 1.5);
+}
+
+@media(min-width: 1024px) {
+
+  /* ==== DEPOIMENTOS ==== */
+
+  .depoimento_siema {
+    width: 596px;
+  }
+
+  .arrows-left {
+    left: 18%;
+  }
+
+  .arrows-right {
+    right: 18%;
+  }
+
+}
