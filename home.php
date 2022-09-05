@@ -75,7 +75,7 @@ get_header();
     <div class="academias_holder grids two_grids">
       <div class="academias--item two_grids--item">
         <div class="chamada-unidade bg_gray box-moldura">
-          <p class="normal-text"><i class="fas fa-map-marker-alt"></i> 13 Academias espalhadas pelo país</p>
+          <p class="normal-text"><i class="fas fa-map-marker-alt"></i> 12 Academias espalhadas pelo país</p>
         </div>
         <div class="title-container">
           <h2 class="normal-title text-yellow text-bold text-upper">Encontre a unidade mais proxima de você</h2>
@@ -87,7 +87,6 @@ get_header();
             <option value="<?= home_url() ?>/alecrins">Alecrins</option>
             <option value="<?= home_url() ?>/kung-fu-feira-de-santana-ba">Feira de Santana</option>
             <option value="<?= home_url() ?>/guarulhos-kung-fu/">Guarulhos</option>
-            <option value="<?= home_url() ?>/joinville-kung-fu/">Joinville</option>
             <option value="<?= home_url() ?>/lapa-kung-fu/">Lapa</option>
             <option value="<?= home_url() ?>/natal-kung-fu/">Natal</option>
             <option value="<?= home_url() ?>/kung-fu-nova-europa/">Nova Europa</option>
@@ -102,7 +101,7 @@ get_header();
         </div>
       </div>
       <div class="academias--item two_grids--item">
-        <img src="<?= home_url() ?>/wp-content/uploads/mapa-unidades.png" alt="Mapa Unidades Academias Hung Sing">
+        <img src="<?= home_url() ?>/wp-content/uploads/mapa-do-brasil-2.svg" alt="Mapa Unidades Academias Hung Sing">
       </div>
     </div>
   </div>
