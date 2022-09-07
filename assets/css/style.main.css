@@ -193,7 +193,8 @@
 
 #menu-principal .menu-item a:hover,
 #menu-item-73:hover>a,
-#menu-item-73:hover>a>i #menu-principal .current-menu-item a {
+#menu-item-73:hover>a>i,
+#menu-principal .current-menu-item a {
   color: var(--yellow) !important;
 }
 
